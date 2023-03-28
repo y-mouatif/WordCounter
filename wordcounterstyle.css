@@ -1,0 +1,70 @@
+/*Design of webpage*/
+* {
+    box-sizing: border-box;
+    font-family: Cambria, serif;
+}
+body{
+    background: linear-gradient(to right, #E9F8FF, #90B2D8, #C1E3FF);
+}
+/*Styling the box container*/
+.container{
+    position:absolute;
+    width:50%;
+    transform: translate(-50%, -50%); /*centering the box*/
+    top: 50%;
+    left: 50%;
+    
+    
+}
+/*Display of results*/
+.count{
+    background-color: rgb(64, 124, 166);
+    padding: 1px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    border-radius: 7px 7px 0px 0px;
+    
+    
+}
+.count p{
+    color: #c9c9ca;
+}
+.count h3{
+    color: #fafaff;
+    font-size: 24px;
+}
+.text{
+    color: #ffffff;
+    padding: 4%;
+border-radius: 0px 0px 8px 8px;
+box-shadow: 0px 0px 50px rgba(30, 21, 49, 0.3);
+}
+
+textarea {
+    width: 100%;
+    border: none;
+    font-size: 15px;
+    padding: 2%;
+    border-radius: 0px 0px 7px 7px;
+    }
+.title{
+    margin: auto;
+    margin-top: 40vw;
+    font-size: 25px;
+}
+div.start{
+    border: solid 2px rgb(87, 140, 220);
+    border-radius: 15px;
+    margin:auto;
+    display: inline-block;
+    justify-content: center;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+a{
+    text-decoration: none;
+}
+    
